@@ -29,10 +29,10 @@ public class ExtendedEditText extends EditText {
 	
 	private void InicializarPinceles () {
 		p1 = new Paint(Paint.ANTI_ALIAS_FLAG);
-		p1.setColor(Color.BLACK);
+		p1.setColor(Color.RED);
 		p1.setStyle(Style.FILL);
 		p2 = new Paint(Paint.ANTI_ALIAS_FLAG);
-		p2.setColor(Color.WHITE);
+		p2.setColor(Color.YELLOW);
 	}
 	
 	@Override
